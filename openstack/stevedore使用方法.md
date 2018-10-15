@@ -1,0 +1,9 @@
+# stevedore模块作用
+
+stevedore库是oslo项目中为OpenStack其他项目提供动态加载功能的公共组件库。stevedore利用python的特性，使得动态加载代码变得更加容易，其也允许你在运行时通过发现和加载扩展插件来配置和扩展你的应用程序。stevedore库基于setuptools的entry points来定义和加载扩展插件，stevedore提供了manager类来实现动态加载扩展插件的通用模式。
+
+
+
+# 参考链接
+
+https://blog.csdn.net/bill_xiang_/article/details/78852717
